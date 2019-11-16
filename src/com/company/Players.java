@@ -3,6 +3,8 @@ package com.company;
 public class Players {
     private int health;
     private int damage;
+    private String attackTypes;
+
 
     public int getHealth() {
         return health;
@@ -20,14 +22,14 @@ public class Players {
         this.damage = damage;
     }
 
-    public String getAttackTypes() {
+    public String getAttackTypes(String attackTypes) {
         return attackTypes;
     }
 
-    public void setAttackTypes(String attackTypes) {
+    public void setAttackTypes() {
         this.attackTypes = attackTypes;
     }
 
-    private String attackTypes;
+
 
 }
